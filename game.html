@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>GAME</title>
+		<meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+        	body{
+        		background-color: white;
+        	}
+        	#game1{
+        		background-color: blue;
+        		border: 2px solid #FFF;
+        		position: absolute;
+        		margin: 75px 0px;
+        		
+        	}
+        	.button{
+        		background-color: #4CAF50; /* Green */
+				  border: none;
+				  color: white;
+				  padding: 15px 32px;
+				  text-align: center;
+				  text-decoration: none;
+				  font-size: 16px;
+				  display: block;
+        	}
+        </style>
+	</head>
+	<body>
+		<div style="position: absolute; top: 420px; left: 630px;"><button class="button" id = "re" onclick="restart()">RESTART</button></div>
+		<div style="position: absolute; top: 370px; left: 630px;"><button class="button" id ="strt" onclick="start()">START</button></div>
+		<div><canvas id="game1" width="600" height="400"></canvas></div>
+		<script src="game.js" type="text/javascript"></script>
+	</body>
+</html>
